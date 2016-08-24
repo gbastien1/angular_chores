@@ -1,0 +1,26 @@
+{
+  "name": "angular-chores",
+  "version": "1.0.0",
+  "description": "A simple app to separate house chores between participants",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "test": "npm test"
+  },
+  "keywords": [
+    "angular",
+    "chores",
+    "app"
+  ],
+  "author": "gbastien1",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.7",
+    "express": "^4.14.0",
+    "http-server": "^0.9.0",
+    "mysql": "^2.11.1",
+    "path": "^0.12.7"
+  }
+}

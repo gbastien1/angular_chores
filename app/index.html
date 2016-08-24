@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="choresApp">
+	<head>
+		<meta charset="utf-8">
+			<title> Chores app </title>
+			<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+			<script src="bower_components/jquery/dist/jquery.min.js"></script>
+			<script src="bower_components/angular/angular.min.js"></script>
+			<script src="bower_components/angular-route/angular-route.min.js"></script>
+			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+			<script src="app.module.js"></script>
+    		<script src="app.config.js"></script>
+
+    		<script src="chore-list/chore-list.module.js"></script>
+    		<script src="chore-list/chore-list.component.js"></script>
+    		<script src="chore-list/chore-list.service.js"></script>
+	</head>
+	<body>
+		<div ng-view> </div>
+	</body>
+</html>
